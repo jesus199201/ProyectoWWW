@@ -1,0 +1,99 @@
+<form class="form-horizontal"  action='' method="POST">
+<fieldset>
+
+  <div id="bproducto" class="col-lg-12 form-group margin50">
+    <label class="col-lg-2" for="Name">Producto</label>
+    <div class="col-lg-4">
+      <input type="search" id="buscarProducto" name="buscar"  class="form-control name_pro">
+    </div>
+  </div>
+
+  <div id="canti" class="col-lg-12 form-group margin50">
+    <label class="col-lg-2" for="cantidad">cantidad</label>
+    <div class="col-lg-1">
+      <input type="number" id="cantidad" name="cantidad"  class="form-control name_pro">
+    </div>
+  </div>
+
+  <div class="col-lg-12 form-group margin50">
+    <label class="col-lg-2" for="fecha">fecha</label>
+    <div class="col-lg-2">
+      <input type="date" id="fecha" name="fecha"  class="form-control name_pro">
+    </div>
+  </div>
+
+
+  <div class="col-lg-12 form-group margin50">
+    <label class="col-lg-2" for="fecha">Tipo de venta</label>
+    <div class="col-lg-2">
+      <select id="tipodeventa" name="tipodeventa" class="form-control">
+          <option value="0">-Select-</option>
+          <option>Fiado</option>
+          <option>de contado</option>
+
+      </select>
+    </div>
+  </div>
+
+  <div  class="col-lg-12 form-group margin50">
+    <label class="col-lg-2" for="fecha">estado de pago</label>
+    <div class="col-lg-2">
+      <select id="tipodeventa" name="tipodeventa" class="form-control">
+          <option value="0">-Select-</option>
+          <option>Completo</option>
+          <option>Todavia debe</option>
+      </select>
+    </div>
+  </div>
+  <div class="col-lg-12 form-group">
+    <div class="col-lg-6">
+      <input type="submit" id="addPro" value="Agregar producto" class="form-control addPro w3-green" >
+    </div>
+  </div>
+</fieldset>
+
+
+</form>
+
+<section>
+
+<div class= "form-group margin50">
+  <table width="100%" border="1" bordercolor="#0000FF" cellspacing="10" cellpadding="10" class="table table-striped">
+    <thead>
+      <tr >
+        <th scope="col">#</th>
+        <th scope="col">producto</th>
+        <th scope="col">preciounitario</th>
+        <th scope="col">total de la venta</th>
+
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">1</th>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <th scope="row">2</th>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <th scope="row">3</th>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <div class="col-lg-6">
+    <input type="submit" id="addPro" value="realizar venta" class="form-control addPro w3-green" >
+  </div>
+
+</div>
+
+
+</section>

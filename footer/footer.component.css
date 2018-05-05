@@ -1,0 +1,63 @@
+body{
+    font-family:Roboto;
+}
+
+footer{
+     background-color: #DCDCDC;
+     padding:90px 0px;
+}
+
+footer .fa:hover{
+   color:#675f5f;
+}
+
+.logo{
+    color:#FFF;
+    font-weight:800;
+    font-size:30px;
+}
+
+.adress span , .contact span , .social span , .header-form{
+   color:#675f5f;
+   font-weight: 800;
+   padding-top:20px;
+   padding-bottom:20px;
+   display: block;
+   text-transform: uppercase;
+   font-size: 13px;
+   letter-spacing: 3px;
+}
+
+.adress li p , .contact li a , .social li a{
+    color:#675f5f;
+    letter-spacing: 2px;
+    text-decoration:none;
+    font-size:13px;
+}
+
+.adress, .contact , .social{
+    list-style: none;
+}
+
+.social li{
+    float:left;
+}
+
+.fa{
+    color:#9c9c9c;
+    margin-right: 10px;
+    font-size:14px;
+}
+
+.btn-search{
+    background: #484848;
+    border: none;
+    color: #FFF;
+    padding: 5px 15px;
+}
+
+.input-search{
+   border: none;
+   height: 30px;
+   padding-left: 10px;
+}

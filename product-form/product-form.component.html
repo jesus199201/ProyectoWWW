@@ -1,0 +1,116 @@
+<!-- Include the above in your HEAD tag -->
+
+<form class="form-horizontal" action='' method="POST">
+  <fieldset>
+
+    <!-- Nombre de la tela -->
+    <div class="col-lg-12 form-group margin50">
+      <label class="col-lg-2"  for="Name">Nombre de la Tela</label>
+      <div class="col-lg-4">
+        <input type="text" id="name" name="Name" placeholder="" class="form-control name">
+      </div>
+    </div>
+
+    <!-- Codigo de tela -->
+    <div class="col-lg-12 form-group">
+      <label class="col-lg-2"  for="Cod_pro">Codigo del producto</label>
+      <div class="col-lg-2">
+        <input type="number" id="cod_pro" name="Cod_pro" placeholder="0000" class="form-control cod_pro">
+      </div>
+    </div>
+
+    <!-- Proveedor y agregar dis -->
+    <div class="col-lg-12 form-group">
+      <label class="col-lg-2" for="Distributor">Proveedor</label>
+      <div class="col-lg-4">
+        <select id="distributor" name="Distributor" class="form-control distributor">
+            <option value="0">-Select-</option>
+            <option>Hilos Jesus</option>
+            <option>Telas la Carpa</option>
+            <option>Hilos & Telas Loto</option>
+        </select>
+        <p class="help-block"><a href="/Supplier">Agregar nuevo Proveedor</a></p>
+      </div>
+    </div>
+
+    <!--Precio de compra -->
+    <div class="col-lg-12 form-group">
+      <label class="col-lg-2"  for="Precio_com">Precio de compra m.</label>
+      <div class="col-lg-4">
+        <input type="text" id="precioo_com" name="Precioo_com" placeholder="$ 000.000" class="form-control precioo_com">
+      </div>
+    </div>
+
+    <!--Precio de venta -->
+    <div class="col-lg-12 form-group">
+      <label class="col-lg-2"  for="Precio">Precio de venta m.</label>
+      <div class="col-lg-4">
+        <input type="text" id="precio" name="Precio" placeholder="$ 000.000" class="form-control precio">
+      </div>
+    </div>
+
+    <!-- Stock inicial-->
+    <div class="col-lg-12 form-group">
+      <label class="col-lg-2"  for="Can_stock">Cantidad Inicial</label>
+      <div class="col-lg-4">
+        <input type="number" id="can_stock" name="Can_stock" placeholder="2000 metros" class="form-control can_stock">
+      </div>
+    </div>
+
+    <!-- Ancho de la tela -->
+    <div class="col-lg-12 form-group">
+      <label class="col-lg-2"  for="Ancho">Ancho de la tela</label>
+      <div class="col-lg-2">
+        <input type="number" id="ancho_mc" name="Ancho" placeholder="1.60 cm" class="form-control ancho">
+      </div>
+    </div>
+
+    <!-- Lista de Composición  -->
+     <div class="col-lg-12 form-group">
+      <label class="col-lg-2" for="Conposicion">Composición</label>
+      <div class="col-lg-4">
+        <select id="composicion" name="Conposicion" class="form-control conposicion">
+            <option value="0">-Lana-</option>
+            <option>-Seda-</option>
+            <option>-Lino-</option>
+            <option>-Algodon-</option>
+            <option>-Cañamo-</option>
+            <option>-Biso-</option>
+        </select>
+      </div></div>
+
+    <!-- Lista tipos de Estampado -->
+    <div class="col-lg-12 form-group">
+      <label class="col-lg-2" for="Estampado">Estampado</label>
+      <div class="col-lg-4">
+        <select id="estampado" name="Estampado" class="form-control estampado">
+            <option value="0">-Select-</option>
+            <option>Ninguno</option>
+            <option>Flores</option>
+            <option>Bordado</option>
+        </select>
+      </div>
+    </div>
+
+    <!-- Lista Color de la tela -->
+    <div class="col-lg-12 form-group">
+      <label class="col-lg-2" for="Color">Color</label>
+      <div class="col-lg-4">
+        <select id="color" name="Color" class="form-control color">
+            <option value="0">-Select-</option>
+            <option>Cafe</option>
+            <option>Negro</option>
+            <option>Blanco</option>
+        </select>
+      </div>
+    </div>
+
+    <!-- Boton agregar -->
+    <div class="col-lg-12 form-group">
+      <div class="col-lg-6">
+        <input type="submit" id="addPro" value="Agregar Producto" class="form-control addPro w3-green" >
+      </div>
+    </div>
+
+  </fieldset>
+</form>
