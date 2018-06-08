@@ -1,62 +1,64 @@
+<form class="form-horizontal"  action='' method="POST">
+<fieldset>
 
-
-  <div class="form-group row" style ="text-align:center">
-    <label  class="col-sm-2 col-form-label"><h1>Ventas</h1></label>
-  </div>
-
-  <br/>
-
-  <div id ="sproducto"class="form-group row">
-    <label for="inputnombreproducto" class="col-sm-2 col-form-label">Nombre producto</label>
-    <div class="col-sm-6">
-      <input type="name" class="form-control" id="inputnombreproducto" >
-    </div>
-  </div>
-  <div id ="scantidad" class="form-group row">
-    <label for="inputcantidad" class="col-sm-2 col-form-label">cantidad</label>
-    <div class="col-sm-1">
-      <input type="number" class="form-control" id="inputcantidad" >
+  <div id="bproducto" class="col-lg-12 form-group margin50">
+    <label class="col-lg-2" for="Name">Producto</label>
+    <div class="col-lg-4">
+      <input type="search" id="buscarProducto" name="buscar"  class="form-control name_pro">
     </div>
   </div>
 
-  <div id ="sfecha" class="form-group row">
-    <label for="inputfecha" class="col-sm-2 col-form-label">fecha</label>
-    <div class="col-sm-2">
-      <input type="date" class="form-control" id="inputfecha" placeholder="dd/mm/yy" >
+  <div id="canti" class="col-lg-12 form-group margin50">
+    <label class="col-lg-2" for="cantidad">cantidad</label>
+    <div class="col-lg-1">
+      <input type="number" id="cantidad" name="cantidad"  class="form-control name_pro">
     </div>
   </div>
 
-  <div id ="stipoventa" class="form-group row">
-    <label for="inputtipov" class="col-sm-2 col-form-label">tipo de venta</label>
-    <div class="col-sm-2">
-      <select type="name" class="form-control" id="inputtipov" placeholder="-select-" >
-        <option value="first">-select-</option>
-        <option value="second">fiado</option>
-        <option value="third">totalidad</option>
+  <div class="col-lg-12 form-group margin50">
+    <label class="col-lg-2" for="fecha">fecha</label>
+    <div class="col-lg-2">
+      <input type="date" id="fecha" name="fecha"  class="form-control name_pro">
+    </div>
+  </div>
+
+
+  <div class="col-lg-12 form-group margin50">
+    <label class="col-lg-2" for="fecha">Tipo de venta</label>
+    <div class="col-lg-2">
+      <select id="tipodeventa" name="tipodeventa" class="form-control">
+          <option value="0">-Select-</option>
+          <option>Fiado</option>
+          <option>de contado</option>
+
       </select>
     </div>
+  </div>
 
-    <div id ="sestadop" class="form-group row">
-      <label for="inputestadop" class="col-sm-2 col-form-label">estado de pago</label>
-      <div class="col-sm-2">
-        <select type="name" class="form-control" id="inputtipov" placeholder="-select-" >
-          <option value="first">-select-</option>
-          <option value="second">debe</option>
-          <option value="third">cancelado</option>
-        </select>
-      </div>
+  <div  class="col-lg-12 form-group margin50">
+    <label class="col-lg-2" for="fecha">estado de pago</label>
+    <div class="col-lg-2">
+      <select id="tipodeventa" name="tipodeventa" class="form-control">
+          <option value="0">-Select-</option>
+          <option>Completo</option>
+          <option>Todavia debe</option>
+      </select>
     </div>
-
-    <div class="form-group row">
-      <div class="col-sm-10">
-        <button type="submit" >Agregar producto</button>
-      </div>
+  </div>
+  <div class="col-lg-12 form-group">
+    <div class="col-lg-6">
+      <input type="submit" id="addPro" value="Agregar producto" class="form-control addPro w3-green" >
     </div>
+  </div>
+</fieldset>
 
 
+</form>
 
-<div  id ="tabl" class="form-group row" >
-  <table  style ="margin: 0 auto;" border="1" bordercolor="#0000FF"  class ="table table-bordered"   >
+<section>
+
+<div class= "form-group margin50">
+  <table width="100%" border="1" bordercolor="#0000FF" cellspacing="10" cellpadding="10" class="table table-striped">
     <thead>
       <tr >
         <th scope="col">#</th>
@@ -87,8 +89,11 @@
       </tr>
     </tbody>
   </table>
+  <div class="col-lg-6">
+    <input type="submit" id="addPro" value="realizar venta" class="form-control addPro w3-green" >
+  </div>
 
 </div>
-<div class="col-lg-6">
-  <input type="submit" id="addPro" value="realizar venta" class="form-control addPro w3-green" >
-</div>
+
+
+</section>
